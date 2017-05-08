@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">DrawACard</string>
+
+    <string name="choose_number_of_decks">Choose number of decks: </string>
+
+    <string-array name="deck_count_arrays">
+        <item>1 deck</item>
+        <item>2 deck</item>
+        <item>3 deck</item>
+        <item>4 deck</item>
+        <item>5 deck</item>
+    </string-array>
+
+    <string name="button_draw">Draw</string>
+    <string name="button_new">New</string>
+
+    <string name="connection_error">Connection error. Try again </string>
+
+    <string name="dialog_error_ok">Ok</string>
+    <string name="progress_dialog_waiting">waiting</string>
+
+    <string name="cards_layout">Cards layout: </string>
+    <string name="cards_layout_flush">Flush</string>
+    <string name="cards_layout_straight">Straight</string>
+    <string name="cards_layout_figures">Figures</string>
+    <string name="cards_layout_three">Three</string>
+
+</resources>

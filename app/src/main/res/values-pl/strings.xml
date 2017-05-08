@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">DrawACard</string>
+
+    <string name="choose_number_of_decks">Wybierz ilość talii do gry: </string>
+
+    <string-array name="deck_count_arrays">
+        <item>1 talia</item>
+        <item>2 talie</item>
+        <item>3 talie</item>
+        <item>4 talie</item>
+        <item>5 talii</item>
+    </string-array>
+
+    <string name="button_draw">Rozdaj</string>
+    <string name="button_new">Od nowa</string>
+
+    <string name="connection_error">Problem z połaczeniem. Spróbuj ponownie </string>
+
+    <string name="dialog_error_ok">Ok</string>
+    <string name="progress_dialog_waiting">czekaj</string>
+
+    <string name="cards_layout">Ułożenie kart: </string>
+    <string name="cards_layout_flush">Kolor</string>
+    <string name="cards_layout_straight">Schodki</string>
+    <string name="cards_layout_figures">Figury</string>
+    <string name="cards_layout_three">Bliźniaki</string>
+
+</resources>
