@@ -12,7 +12,6 @@ import android.os.Bundle;
 import android.text.TextUtils;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.Iterator;
 
 import krystian.drawacard.cardslayout.CardsLayout;
@@ -21,6 +20,10 @@ import krystian.drawacard.http.DeckOfCardListener;
 import krystian.drawacard.http.DeckOfCardProvider;
 import krystian.drawacard.http.data.Card;
 
+/**
+ * A Activity contains DeckCountFragment and ReshuffleCardsFragment.
+ * Controls connection to appi.
+ */
 
 public class MainActivity extends Activity implements DeckCountFragment.OnChooseDeckCountListener , ReshuffleCardsFragment.OnReshuffleCardsListener{
 

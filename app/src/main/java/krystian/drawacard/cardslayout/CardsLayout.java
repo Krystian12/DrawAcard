@@ -8,6 +8,10 @@ import java.util.Iterator;
 
 import krystian.drawacard.http.data.Card;
 
+/**
+ * Class responsible for check cards layout. You can verify that you got flush, straight, figures, three
+ */
+
 public class CardsLayout {
 
     public enum Type { FLUSH, STRAIGHT, FIGURES, THREE};

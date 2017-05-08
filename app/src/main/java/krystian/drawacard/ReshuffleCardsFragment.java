@@ -11,12 +11,16 @@ import android.widget.GridView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.Iterator;
 
-import krystian.drawacard.cardslayout.CardsLayout;
 import krystian.drawacard.cardslayout.CardsLayoutVerification;
 import krystian.drawacard.http.data.Card;
+
+/**
+ * A fragment that displays draw a card.
+ * Shows card layout
+ * Yuo can draw again or start over
+ */
 
 public class ReshuffleCardsFragment extends Fragment {
 

@@ -4,7 +4,6 @@ import android.util.Log;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.google.gson.internal.Primitives;
 
 import krystian.drawacard.Parameters;
 import krystian.drawacard.http.data.Deck;

@@ -10,6 +10,11 @@ import android.view.ViewGroup;
 import android.widget.Spinner;
 import android.widget.TextView;
 
+
+/**
+ * A fragment that displays choice deck.
+ */
+
 public class DeckCountFragment extends Fragment {
 
     private Spinner deckCountSpinner;

@@ -1,6 +1,5 @@
 package krystian.drawacard;
 
-import android.app.ProgressDialog;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.view.LayoutInflater;
@@ -9,7 +8,6 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
-import android.widget.TextView;
 
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
@@ -21,6 +19,11 @@ import java.util.ArrayList;
 import krystian.drawacard.http.data.Card;
 
 public class CardAdapter extends BaseAdapter {
+
+    /**
+     * A adapter that displays one card.
+     * ImageLoader loading images.
+     */
 
     private DisplayImageOptions displayImage = new DisplayImageOptions.Builder()
             .showImageOnLoading(R.drawable.default_card)
